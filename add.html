@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Index</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/color.css">
+    <link rel="stylesheet" href="./assets/fonts/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar starts here -->
+    <!-- Image and text -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand ml-4" href="#">Brand Name</a>
+        <div class="ml-auto" id="navbarNav">
+            <button class="btn ml-auto mr-3" onmouseenter="myfun()" onmouseleave="myfun1()"><i class="fa fa-user fa-lg"
+                    aria-hidden="true"></i></button>
+            <ul class="profile" onmouseenter="myfun()" onmouseleave="myfun1()" id="profile">
+                <li><button>Click here</button></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar ends here -->
+    <!-- vertical navbar starts here -->
+    <div class="container wrapper">
+        <div class="row wrapper-row">
+            <div class="nav-vertical">
+                <ul class="menu">
+                    <li><a href="index.html">
+                            <span class="icon"><i class="fas fa-home"></i></span>
+                            <span class="text">Dashboard</span>
+                        </a></li>
+                    <li><a href="products.html">
+                            <span class="icon"><i class="fas fa-file-alt"></i></span>
+                            <span class="text">Products</span>
+                        </a></li>
+                    <li><a href="add.html" class="active">
+                            <span class="icon"><i class="fa fa-plus"></i></span>
+                            <span class="text">Add</span>
+                        </a></li>
+                    <li><a href="#">
+                            <span class="icon"><i class="fas fa-user"></i></span>
+                            <span class="text">Account</span>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="col-md-7 col-sm-6">
+                <div class="row">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Add</li>
+                        </ol>
+                    </nav>
+                </div>
+                <form class="add">
+                    <div class="form-group row">
+                        <label for="name" class="col-sm-3 col-form-label">Product Name</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="name" placeholder="Product Name">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inputPassword3" class="col-sm-3 col-form-label">Price</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="price" placeholder="Price(in Rs.)">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="category" class="col-sm-3 col-form-label">Category</label>
+                        <div class="col-sm-9">
+                            <select id="category" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-sm-10 ">
+                            <button type="submit" name="submit" class="btn btn-primary">Save</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- vertical navbar end-->
+    <!-- scripts -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/function.js"></script>
+</body>
+
+</html>

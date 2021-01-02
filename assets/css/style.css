@@ -1,0 +1,85 @@
+.navbar {
+    background-color: #21897E;
+    height: 80px;
+}
+
+.navbar .navbar-brand {
+    color: white;
+    font-size: xx-large;
+}
+
+.navbar .navbar-brand:hover {
+    color: #2CB5A7;
+    font-size: 40px;
+}
+
+.fa-user {
+    color: white;
+}
+
+.profile {
+    list-style: none;
+    display: none;
+}
+
+.wrapper {
+    height: 615px;
+    width: 100%;
+    margin: 0em;
+    padding: 0%;
+}
+
+.wrapper-row {
+    height: 100%;
+}
+
+.nav-vertical {
+    background-color: #21897E;
+    height: 100%;
+    width: 280px;
+}
+
+.nav-vertical .menu{
+	padding-left: 25px;
+}
+
+.nav-vertical .menu li a{
+	display: block;
+    padding: 15px;
+    padding-left: 30px;
+	text-transform: uppercase;
+	color: #fff;
+	border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+	margin-bottom: 10px;
+}
+
+.nav-vertical .menu li a .icon{
+	color: #2CB5A7;
+	width: 25px;
+    display: inline-block;
+}
+
+.nav-vertical .menu li a:hover,
+.nav-vertical .menu li a.active{
+	background: #fff;
+	color: #3d5654;
+}
+
+#ex1 {
+    height: 615px;
+    overflow: scroll;
+}
+
+.add {
+    border: 2px;
+    margin-top: 20px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.head {
+    background-color: #2CB5A7;
+}

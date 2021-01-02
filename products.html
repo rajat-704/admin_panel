@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Index</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/color.css">
+    <link rel="stylesheet" href="./assets/fonts/css/all.min.css">
+</head>
+
+<body>
+    <!-- navbar starts here -->
+    <!-- Image and text -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand ml-4" href="#">Brand Name</a>
+        <div class="ml-auto" id="navbarNav">
+            <button class="btn ml-auto mr-3" onmouseenter="myfun()" onmouseleave="myfun1()"><i class="fa fa-user fa-lg"
+                    aria-hidden="true"></i></button>
+            <ul class="profile" onmouseenter="myfun()" onmouseleave="myfun1()" id="profile">
+                <li><button>Click here</button></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- navbar ends here -->
+    <!-- vertical navbar starts here -->
+    <div class="container wrapper">
+        <div class="row wrapper-row">
+            <div class="nav-vertical">
+                <ul class="menu">
+                    <li><a href="index.html">
+                            <span class="icon"><i class="fas fa-home"></i></span>
+                            <span class="text">Dashboard</span>
+                        </a></li>
+                    <li><a href="products.html" class="active">
+                            <span class="icon"><i class="fas fa-file-alt"></i></span>
+                            <span class="text">Products</span>
+                        </a></li>
+                    <li><a href="add.html">
+                            <span class="icon"><i class="fa fa-plus"></i></span>
+                            <span class="text">Add</span>
+                        </a></li>
+                    <li><a href="#">
+                            <span class="icon"><i class="fas fa-user"></i></span>
+                            <span class="text">Account</span>
+                        </a></li>
+                </ul>
+            </div>
+            <div class="col-md-7 col-sm-6 table-div">
+                <div class="row">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Products</li>
+                        </ol>
+                    </nav>
+                </div>
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th class="head" scope="col">#</th>
+                            <th class="head" scope="col">Product Name</th>
+                            <th class="head" scope="col">Price</th>
+                            <th class="head" scope="col">Category</th>
+                            <th class="head" scope="col">Update</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Sugar</td>
+                            <td>30</td>
+                            <td>General</td>
+                            <td><a href="edit.html"><i class="fa fa-edit"></i></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-- vertical navbar end-->
+    <!-- scripts -->
+    <script src="./assets/js/bootstrap.min.js"></script>
+    <script src="./assets/js/function.js"></script>
+</body>
+
+</html>
